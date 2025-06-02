@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblewhistle",
+  "version": "${version}",
+  "name": "CobbleWhistle",
+  "description": "just the cobble trade",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cobblewhistle/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "top.vrilhyc.mods.cobblewhistle.client.CobblewhistleDataGenerator"
+    ],
+    "client": [
+      "top.vrilhyc.mods.cobblewhistle.client.CobblewhistleClient"
+    ],
+    "main": [
+      "top.vrilhyc.mods.cobblewhistle.Cobblewhistle"
+    ]
+  },
+  "mixins": [
+    "cobblewhistle.mixins.json",
+    {
+      "config": "cobblewhistle.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
