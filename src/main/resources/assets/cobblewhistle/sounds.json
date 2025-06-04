@@ -1,0 +1,8 @@
+{
+  "whistle_select": {
+    "sounds": [
+      "cobblewhistle:whistle_select"
+    ],
+    "subtitle": "subtitles.item.cobblewhistle.play"
+  }
+}

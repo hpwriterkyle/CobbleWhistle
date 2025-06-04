@@ -1,0 +1,10 @@
+{
+  "itemGroup.cobblewhistle_blockgroup": "CobbleWhistle",
+  "item.cobblewhistle.whistle": "Whistle",
+  "itemTooltip.cobblewhistle.lightning_stick": "ur words",
+  "itemTooltip.cobblewhistle.unused.whistle": "§6Right Click §7to select pokemon",
+  "itemTooltip.cobblewhistle.used.whistle": "§bRight Click §7to spawn %s",
+  "message.cobblewhistle.select": "%s has been selected",
+  "message.cobblewhistle.spawn": "%s has spawned",
+  "message.cobblewhistle.cooldown": "The whistle is still on cooldown"
+}
